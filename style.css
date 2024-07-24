@@ -1,0 +1,208 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  gap: 20px;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800"><defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="ffflurry-grad" gradientTransform="rotate(270)"><stop stop-color="hsl(238, 82%, 13%)" stop-opacity="1" offset="0%"></stop><stop stop-color="hsl(1.4, 100%, 67%)" stop-opacity="1" offset="45%"></stop><stop stop-color="hsl(167, 52%, 78%)" stop-opacity="1" offset="100%"></stop></linearGradient></defs><rect width="100%" height="100%" fill="hsl(238, 82%, 13%)"></rect><g fill="url(%23ffflurry-grad)"><rect width="438" height="3" x="551" y="366.5" rx="1.5" transform="rotate(45, 770, 368)" opacity="0.61"></rect><rect width="196" height="3" x="262" y="104.5" rx="1.5" transform="rotate(45, 360, 106)" opacity="0.85"></rect><rect width="595" height="3" x="227.5" y="286.5" rx="1.5" transform="rotate(45, 525, 288)" opacity="0.55"></rect><rect width="92" height="3" x="171" y="538.5" rx="1.5" transform="rotate(45, 217, 540)" opacity="0.95"></rect><rect width="114" height="3" x="706" y="524.5" rx="1.5" transform="rotate(45, 763, 526)" opacity="0.48"></rect><rect width="304" height="3" x="349" y="752.5" rx="1.5" transform="rotate(45, 501, 754)" opacity="0.18"></rect><rect width="90" height="3" x="665" y="641.5" rx="1.5" transform="rotate(45, 710, 643)" opacity="0.33"></rect><rect width="63" height="3" x="700.5" y="139.5" rx="1.5" transform="rotate(45, 732, 141)" opacity="0.61"></rect><rect width="172" height="3" x="285" y="180.5" rx="1.5" transform="rotate(45, 371, 182)" opacity="0.77"></rect><rect width="186" height="3" x="382" y="405.5" rx="1.5" transform="rotate(45, 475, 407)" opacity="0.24"></rect><rect width="354" height="3" x="270" y="346.5" rx="1.5" transform="rotate(45, 447, 348)" opacity="0.39"></rect><rect width="128" height="3" x="712" y="665.5" rx="1.5" transform="rotate(45, 776, 667)" opacity="0.33"></rect><rect width="650" height="3" x="34" y="434.5" rx="1.5" transform="rotate(45, 359, 436)" opacity="0.98"></rect><rect width="387" height="3" x="253.5" y="503.5" rx="1.5" transform="rotate(45, 447, 505)" opacity="0.75"></rect><rect width="244" height="3" x="189" y="207.5" rx="1.5" transform="rotate(45, 311, 209)" opacity="0.71"></rect><rect width="290" height="3" x="422" y="562.5" rx="1.5" transform="rotate(45, 567, 564)" opacity="0.25"></rect><rect width="111" height="3" x="78.5" y="367.5" rx="1.5" transform="rotate(45, 134, 369)" opacity="0.08"></rect><rect width="110" height="3" x="481" y="443.5" rx="1.5" transform="rotate(45, 536, 445)" opacity="0.69"></rect><rect width="291" height="3" x="-13.5" y="506.5" rx="1.5" transform="rotate(45, 132, 508)" opacity="0.35"></rect><rect width="410" height="3" x="24" y="436.5" rx="1.5" transform="rotate(45, 229, 438)" opacity="0.62"></rect><rect width="512" height="3" x="-214" y="569.5" rx="1.5" transform="rotate(45, 42, 571)" opacity="0.82"></rect><rect width="55" height="3" x="728.5" y="455.5" rx="1.5" transform="rotate(45, 756, 457)" opacity="0.27"></rect><rect width="532" height="3" x="168" y="647.5" rx="1.5" transform="rotate(45, 434, 649)" opacity="0.19"></rect><rect width="118" height="3" x="626" y="423.5" rx="1.5" transform="rotate(45, 685, 425)" opacity="0.81"></rect><rect width="86" height="3" x="701" y="281.5" rx="1.5" transform="rotate(45, 744, 283)" opacity="0.11"></rect><rect width="900" height="3" x="-368" y="65.5" rx="1.5" transform="rotate(45, 82, 67)" opacity="0.68"></rect><rect width="91" height="3" x="-2.5" y="703.5" rx="1.5" transform="rotate(45, 43, 705)" opacity="0.92"></rect><rect width="309" height="3" x="-131.5" y="279.5" rx="1.5" transform="rotate(45, 23, 281)" opacity="0.61"></rect><rect width="116" height="3" x="218" y="325.5" rx="1.5" transform="rotate(45, 276, 327)" opacity="0.58"></rect><rect width="352" height="3" x="525" y="220.5" rx="1.5" transform="rotate(45, 701, 222)" opacity="0.67"></rect><rect width="304" height="3" x="-116" y="385.5" rx="1.5" transform="rotate(45, 36, 387)" opacity="0.81"></rect><rect width="365" height="3" x="195.5" y="243.5" rx="1.5" transform="rotate(45, 378, 245)" opacity="0.90"></rect><rect width="418" height="3" x="483" y="545.5" rx="1.5" transform="rotate(45, 692, 547)" opacity="0.28"></rect><rect width="246" height="3" x="619" y="325.5" rx="1.5" transform="rotate(45, 742, 327)" opacity="0.87"></rect><rect width="339" height="3" x="154.5" y="695.5" rx="1.5" transform="rotate(45, 324, 697)" opacity="0.58"></rect><rect width="132" height="3" x="372" y="193.5" rx="1.5" transform="rotate(45, 438, 195)" opacity="0.42"></rect><rect width="471" height="3" x="102.5" y="618.5" rx="1.5" transform="rotate(45, 338, 620)" opacity="0.94"></rect><rect width="140" height="3" x="701" y="219.5" rx="1.5" transform="rotate(45, 771, 221)" opacity="0.62"></rect><rect width="358" height="3" x="426" y="425.5" rx="1.5" transform="rotate(45, 605, 427)" opacity="0.65"></rect><rect width="123" height="3" x="191.5" y="41.5" rx="1.5" transform="rotate(45, 253, 43)" opacity="0.86"></rect><rect width="402" height="3" x="33" y="625.5" rx="1.5" transform="rotate(45, 234, 627)" opacity="0.24"></rect><rect width="520" height="3" x="243" y="179.5" rx="1.5" transform="rotate(45, 503, 181)" opacity="0.22"></rect><rect width="418" height="3" x="285" y="578.5" rx="1.5" transform="rotate(45, 494, 580)" opacity="0.18"></rect><rect width="240" height="3" x="-37" y="294.5" rx="1.5" transform="rotate(45, 83, 296)" opacity="0.90"></rect><rect width="118" height="3" x="548" y="70.5" rx="1.5" transform="rotate(45, 607, 72)" opacity="0.16"></rect><rect width="114" height="3" x="709" y="583.5" rx="1.5" transform="rotate(45, 766, 585)" opacity="0.21"></rect><rect width="278" height="3" x="79" y="318.5" rx="1.5" transform="rotate(45, 218, 320)" opacity="0.84"></rect><rect width="41" height="3" x="245.5" y="262.5" rx="1.5" transform="rotate(45, 266, 264)" opacity="0.19"></rect><rect width="488" height="3" x="50" y="382.5" rx="1.5" transform="rotate(45, 294, 384)" opacity="0.90"></rect><rect width="318" height="3" x="266" y="284.5" rx="1.5" transform="rotate(45, 425, 286)" opacity="0.13"></rect><rect width="282" height="3" x="184" y="282.5" rx="1.5" transform="rotate(45, 325, 284)" opacity="0.47"></rect><rect width="159" height="3" x="83.5" y="705.5" rx="1.5" transform="rotate(45, 163, 707)" opacity="0.29"></rect><rect width="337" height="3" x="507.5" y="338.5" rx="1.5" transform="rotate(45, 676, 340)" opacity="0.41"></rect><rect width="166" height="3" x="-41" y="470.5" rx="1.5" transform="rotate(45, 42, 472)" opacity="0.18"></rect><rect width="572" height="3" x="299" y="348.5" rx="1.5" transform="rotate(45, 585, 350)" opacity="0.73"></rect><rect width="708" height="3" x="-263" y="184.5" rx="1.5" transform="rotate(45, 91, 186)" opacity="0.14"></rect><rect width="414" height="3" x="530" y="45.5" rx="1.5" transform="rotate(45, 737, 47)" opacity="0.20"></rect><rect width="609" height="3" x="286.5" y="191.5" rx="1.5" transform="rotate(45, 591, 193)" opacity="0.95"></rect><rect width="440" height="3" x="12" y="749.5" rx="1.5" transform="rotate(45, 232, 751)" opacity="0.95"></rect><rect width="409" height="3" x="252.5" y="54.5" rx="1.5" transform="rotate(45, 457, 56)" opacity="0.53"></rect><rect width="437" height="3" x="-1.5" y="210.5" rx="1.5" transform="rotate(45, 217, 212)" opacity="0.17"></rect><rect width="354" height="3" x="165" y="529.5" rx="1.5" transform="rotate(45, 342, 531)" opacity="0.21"></rect><rect width="390" height="3" x="422" y="734.5" rx="1.5" transform="rotate(45, 617, 736)" opacity="0.68"></rect><rect width="472" height="3" x="4" y="132.5" rx="1.5" transform="rotate(45, 240, 134)" opacity="0.54"></rect><rect width="288" height="3" x="262" y="752.5" rx="1.5" transform="rotate(45, 406, 754)" opacity="0.22"></rect><rect width="376" height="3" x="443" y="509.5" rx="1.5" transform="rotate(45, 631, 511)" opacity="0.18"></rect><rect width="122" height="3" x="581" y="260.5" rx="1.5" transform="rotate(45, 642, 262)" opacity="0.86"></rect><rect width="89" height="3" x="43.5" y="771.5" rx="1.5" transform="rotate(45, 88, 773)" opacity="0.21"></rect><rect width="712" height="3" x="182" y="665.5" rx="1.5" transform="rotate(45, 538, 667)" opacity="0.53"></rect><rect width="380" height="3" x="175" y="338.5" rx="1.5" transform="rotate(45, 365, 340)" opacity="0.74"></rect><rect width="468" height="3" x="497" y="747.5" rx="1.5" transform="rotate(45, 731, 749)" opacity="0.14"></rect><rect width="232" height="3" x="204" y="766.5" rx="1.5" transform="rotate(45, 320, 768)" opacity="0.37"></rect><rect width="334" height="3" x="-8" y="291.5" rx="1.5" transform="rotate(45, 159, 293)" opacity="0.24"></rect><rect width="108" height="3" x="570" y="617.5" rx="1.5" transform="rotate(45, 624, 619)" opacity="0.17"></rect><rect width="211" height="3" x="5.5" y="622.5" rx="1.5" transform="rotate(45, 111, 624)" opacity="0.32"></rect><rect width="273" height="3" x="412.5" y="502.5" rx="1.5" transform="rotate(45, 549, 504)" opacity="0.29"></rect><rect width="273" height="3" x="-17.5" y="427.5" rx="1.5" transform="rotate(45, 119, 429)" opacity="0.32"></rect></g></svg>');
+}
+
+h1,
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header,
+main {
+  padding: 30px;
+  align-self: center;
+}
+
+main > div > div,
+main h2,
+.headerContent,
+footer {
+  background-color: white;
+}
+header {
+  display: grid;
+  justify-self: center;
+  align-items: center;
+  grid-template-columns: 1fr 4fr;
+
+  max-width: 1000px;
+}
+
+.profileImage {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  position: relative;
+  background-image: url('assets/images/ProfilePicture.jpg');
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+
+.profileImage h1 {
+  color: rgb(219, 213, 213);
+
+  -webkit-text-stroke: 1px black;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+.headerContent {
+  position: relative;
+  border: 1px solid black;
+
+  padding: 50px;
+}
+.imageContent {
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > h2 {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+.headerContent img,
+main img,
+.contentFooter img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.allCard {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(10px, 1fr));
+}
+
+.allCard > div {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+  transition: transform 450ms;
+}
+
+.allCard > div:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  padding: 20px;
+}
+
+.footerInformation {
+  display: flex;
+  align-items: center;
+}
+
+.contentFooter {
+  align-items: center;
+}
+
+.projectName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.color {
+  height: 200px;
+  padding-top: 20px;
+}
+#projectOne .color {
+  background-color: red;
+}
+
+#projectTwo .color {
+  background-color: blue;
+}
+
+#projectThree .color {
+  background-color: green;
+}
+
+#projectFour .color {
+  background-color: yellow;
+}
+
+#projectFive .color {
+  background-color: darkorchid;
+}
+
+#projectSix .color {
+  background-color: deepskyblue;
+}
+
+@media (max-width: 750px) {
+  header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+  }
+
+  .profileImage {
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 0;
+    height: 280px;
+    width: 280px;
+  }
+  .allCard {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  header {
+    padding: 10px;
+  }
+  .allCard {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
